@@ -1,27 +1,16 @@
-# P1SimpleRedditClone
+# Simple Reddit Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+Practical from **ng-book—The Complete Book on Angular 8**
 
-## Development server
+This application will allow the user to post an article (title and URL) and vote on posts.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Learning objectives
+- Building custom components
+- Accepting user input from forms
+- Rendering lists of objects into views
+- Intercepting user clicks and acting on them 
+- Deploying our app to a server
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## App Requirements
+- A user will submit a new post
+- Users can up-vote or down-vote posts, which will translate to an overall score of how useful the post is
